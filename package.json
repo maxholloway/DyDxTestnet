@@ -1,0 +1,30 @@
+{
+  "name": "dydxfaucet",
+  "version": "1.0.0",
+  "description": "Get DyDx Faucet USDC",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify js/index.js -o js/bundle.js",
+    "watch": "watchify js/index.js -o js/bundle.js -v",
+    "serve-dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxholloway/DyDxTestnet.git"
+  },
+  "author": "Max Holloway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxholloway/DyDxTestnet/issues"
+  },
+  "homepage": "https://github.com/maxholloway/DyDxTestnet#readme",
+  "dependencies": {
+    "@dydxprotocol/v3-client": "^1.5.11",
+    "ethereumjs-wallet": "^1.0.2"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "watchify": "^4.0.0"
+  }
+}

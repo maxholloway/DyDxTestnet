@@ -131,3 +131,7 @@ dmypy.json
 # My Additions
 secrets.json
 
+# JS
+bundle.js
+node_modules/
+package-lock.json

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+    .roomy-text-entry {
+        overflow: scroll;
+    }
+</style>
+
+
+</head>
+
+<body>
+
+<h1>DyDx USDC Faucet</h1>
+<div>
+    <button id="generatePrivateKeyButton">Generate Private Key</button>
+</div>
+
+<br>
+
+<div class="roomy-text-entry">
+    <label for="ethAddressInput">Eth Address: </label>
+    <input type="text" readonly="readonly" id="ethAddressInput">
+</div>
+
+<br>
+
+<div class="roomy-text-entry">
+    <label for="privateKeyInput">Eth Private Key: </label>
+    <input type="password" id="privateKeyInput">
+</div>
+
+<br>
+
+<button id="generateApiCredsButton">Generate API Credentials</button>
+
+<script src="./js/bundle.js"></script>
+</body>
+</html>

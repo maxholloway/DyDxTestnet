@@ -1,2 +1,4 @@
-# DyDxTestnet
-Methods for accessing the DyDx programmatically.
+# DyDxFaucet
+
+A faucet for DyDx testnet USDC.
+
